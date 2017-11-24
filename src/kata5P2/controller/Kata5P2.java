@@ -1,19 +1,19 @@
-package kata4.controller;
+package kata5P2.controller;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
-import kata4.model.Histogram;
-import kata4.view.HistogramDisplay;
-import kata4.view.MailHistogramBuider;
-import kata4.view.MailListReader;
+import kata5P2.model.Histogram;
+import kata5P2.view.HistogramDisplay;
+import kata5P2.view.MailHistogramBuider;
+import kata5P2.view.MailListReader;
 
-public class Kata4 {
+public class Kata5P2 {
     private List<String> mailList;
     private String filename;
     private Histogram<String> histogram;
     
     public static void main(String[] args) throws IOException {
-        Kata4 kata4 = new Kata4();
+        Kata5P2 kata4 = new Kata5P2();
         kata4.execute();      
     }
     public void execute() throws FileNotFoundException, IOException{
